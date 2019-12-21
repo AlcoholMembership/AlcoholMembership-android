@@ -4,6 +4,7 @@
           package="com.project.alcoholmembership">
 
     <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
             android:hardwareAccelerated="true"
