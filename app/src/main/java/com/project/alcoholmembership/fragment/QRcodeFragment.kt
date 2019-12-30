@@ -20,7 +20,7 @@ class QRcodeFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view:View = inflater!!.inflate(R.layout.fragment_qrcode, container, false)
 
-        val text = "test"
+        val text = "qr_test_id"
 
         view.apply {
 
