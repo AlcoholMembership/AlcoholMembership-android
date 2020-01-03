@@ -15,7 +15,6 @@ import com.project.alcoholmembership.service.UserService
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
-import kotlinx.android.synthetic.main.fragment_qrcode.*
 import kotlinx.android.synthetic.main.fragment_qrreader.view.*
 import javax.net.ssl.HttpsURLConnection
 
