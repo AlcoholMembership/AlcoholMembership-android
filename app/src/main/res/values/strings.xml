@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AlcoholMembership</string>
+    <string name="kakao_app_key">1e22082c5b3ef293fe6bc605cfe187fe</string>
 </resources>
+

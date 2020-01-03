@@ -15,6 +15,5 @@ class MainActivity : AppCompatActivity() {
 
         // 뷰페이저 어댑터 연결
         main_pager.adapter = MainActivity@adapter
-
     }
 }

@@ -8,13 +8,5 @@ object APIUtiles {
 
     val getUserService: UserAPIService
         get() = RetrofitClient.getClient(BASE_URL).create(UserAPIService::class.java)
-
-//    fun getDrinkService(accessToken: String): DrinkAPIService {
-//        return RetrofitClient.getClientWithToken(BASE_URL, accessToken)!!.create(DrinkAPIService::class.java)
-//    }
-//
-//    fun getHistoryService(accessToken: String): HistoryAPIService {
-//        return RetrofitClient.getClientWithToken(BASE_URL, accessToken)!!.create(HistoryAPIService::class.java)
-////    }
 }
 
